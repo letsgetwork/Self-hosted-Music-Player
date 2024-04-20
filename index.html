@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://asharirhmn.com/tail"></script>
+  <script src="https://asharirhmn.com/jq"></script>
+  <script src="https://asharirhmn.com/blockrc"></script>
+  <style>
+    /* Style for the image cover */
+    #coverImage {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 10%; /* Set border-radius to make it rounded */
+    }
+    /* Media query for mobile devices */
+    @media (max-width: 372px) {
+      #coverImage {
+        max-width: 80px; /* Set max-width for mobile */
+        max-height: 80px; /* Set max-height for mobile */
+      }
+    }
+  </style>
+
+  <title>Player</title>
+</head>
+<body>
+  <div id="home"></div>
+  <div id="player"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>
