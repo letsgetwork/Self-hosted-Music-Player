@@ -7,6 +7,9 @@ Welcome to the Self-hosted Music Player, your personalized solution for managing
 ### 🎧 Spotify-Inspired Design
 Experience a sleek and intuitive interface reminiscent of popular music streaming services, making navigation and playback a breeze. With a clean layout and familiar controls, you'll feel right at home as you explore your music library.
 
+### 🛡️ Safe and Ad-free Experience
+Enjoy your music without interruptions or concerns about intrusive ads and trackers. The Self-hosted Music Player prioritizes your privacy and security, providing a safe and ad-free environment for listening to your favorite tunes.
+
 ### 📁 Self-hosted Music Database
 Unlike traditional music streaming services that store your data on remote servers, the Self-hosted Music Player allows you to host your music collection directly on your own platform. This ensures complete privacy and control over your data, giving you peace of mind knowing that your music stays where it belongs – with you.
 
@@ -19,8 +22,6 @@ Enjoy uninterrupted music playback with the Self-hosted Music Player's seamless 
 ### 📱 Responsive Design
 Access your music library anytime, anywhere, across all your devices. The Self-hosted Music Player features a responsive design that adapts seamlessly to different screen sizes, ensuring optimal performance whether you're using a desktop computer, tablet, or smartphone.
 
-🛡️ Safe and Ad-free Experience
-Enjoy your music without interruptions or concerns about intrusive ads and trackers. The Self-hosted Music Player prioritizes your privacy and security, providing a safe and ad-free environment for listening to your favorite tunes.
 
 ## Getting Started
 1. **Installation**: Download the Self-hosted Music Player files and host them on your platform. The player is designed to be lightweight and easy to set up, allowing you to get started quickly.
