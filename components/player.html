@@ -339,6 +339,32 @@ const playlist = [
 
 let currentSongIndex = 0; // Track the index of the current song
 
+// Function to load a random song from the playlist and play it
+function loadAndPlayRandomSong() {
+  const randomIndex = Math.floor(Math.random() * playlist.length);
+  currentSongIndex = randomIndex;
+  loadCurrentSong();
+}
+
+// Call the function to load and play a random song when the page first loads
+loadAndPlayRandomSong();
+
+// Function to load the current song
+function loadCurrentSong() {
+  const currentSong = playlist[currentSongIndex];
+  audio.src = currentSong.audio;
+  coverImage.src = currentSong.cover;
+  songTitle.textContent = currentSong.title;
+  artistName.textContent = currentSong.artist;
+  document.title = `${currentSong.artist} - ${currentSong.title}`; // Update browser title
+  audio.play();
+  isPlaying = true;
+  playPauseButton.src = '/asset/pause.png';
+  audio.addEventListener('loadedmetadata', () => {
+    endTime.textContent = formatTime(audio.duration);
+  });
+}
+
 // Function to format time in MM:SS format
 function formatTime(seconds) {
   const minutes = Math.floor(seconds / 60);
