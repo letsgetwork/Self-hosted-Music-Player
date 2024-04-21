@@ -19,6 +19,9 @@ Enjoy uninterrupted music playback with the Self-hosted Music Player's seamless 
 ### 📱 Responsive Design
 Access your music library anytime, anywhere, across all your devices. The Self-hosted Music Player features a responsive design that adapts seamlessly to different screen sizes, ensuring optimal performance whether you're using a desktop computer, tablet, or smartphone.
 
+🛡️ Safe and Ad-free Experience
+Enjoy your music without interruptions or concerns about intrusive ads and trackers. The Self-hosted Music Player prioritizes your privacy and security, providing a safe and ad-free environment for listening to your favorite tunes.
+
 ## Getting Started
 1. **Installation**: Download the Self-hosted Music Player files and host them on your platform. The player is designed to be lightweight and easy to set up, allowing you to get started quickly.
 2. **Adding Music**: Edit the `/components/player.html` file to include your music library. Simply add new music entries to the file to expand your collection. You can organize your music by artist, album, genre, or any other criteria that suits your needs.
