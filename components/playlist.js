@@ -353,6 +353,114 @@ const playlist = [
     audio:
       "https://archive.org/download/BlogGalihKhZainuddinMz/KhZainuddinMz-UmmarBinKhattab.mp3",
   },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Dalam Kemenangan",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/AlmarhumUstadzJefriAlBuchoriDalamKenanganSctv.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Semangat Dari Ketidaksempurnaan",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/Assalamu_alaikumUstadz03-03-2013Ust.jefriAlBuchori_SemangatDariKetidaksempurnaan-Rcti.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Bakat Dalam Anugerah",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/Assalamu_alaikumUstadz06-02-2013Ust.jefriAlBuchori__bakatAdalahAnugerah_-Rcti.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Makin Digosok Makin Sip",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/Assalamu_alaikumUstadz13-02-2013Ust.jefriAlBuchori_MakinDigosokMakinSip-Rcti.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Bayang-bayang Masa Lalu",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/Assalamu_alaikumUstadz21-02-2013Ust.jefriAlBuchori__bayang-bayangMasaLalu_-Rcti.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Remaja Gaul Yang Islami",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/Assalamu_alaikumUstadz22-02-2013Ust.jefriAlBuchori__remajaGaulYangIslami_-Rcti.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Melihat Lewat Mata Hati",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/Assalamu_alaikumUstadz27-01-2013Ust.jefriAlBuchori__melihatLewatMataHati_-Rcti.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Buah Jatuh Tak Jauh Dari Pohonnya",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/Assalamu_alaikumUstadz31-01-2013Ust.jefriAlBuchori__buahJatuhTakJauhDariPohonnya.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Islam Dan Musik",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/AssalamualaikumUstadz14-02-2013Ust.jefriAlBuchoriIslamDanMusik-Rcti.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Pesan Untuk Anak Bangsa",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/CeramahUjeMajalengkaPesanUntukAnakBangsa.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Damai Indonesiaku 1",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/DamaiIndonesiaku-2010-08-12-JefriAlBuchori.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Damai Indonesiaku 2",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/DamaiIndonesiaku-2010-08-13-JefriAlBuchori.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Damai Indonesiaku 3",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/DamaiIndonesiaku-2010-08-14-JefriAlBuchori.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Damai Indonesiaku 4",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/DamaiIndonesiaku-2010-08-16-JefriAlBuchori.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Damai Indonesiaku 5",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/DamaiIndonesiaku27-04-2013InMemoriamUstadzJefriAlBuchori-Tvone.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Damai Indonesiaku 6",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/DamaiIndonesiakuTvOneJefriAlbuchori27032011.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Mengaji Bersama Uje",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/PengajianUstad.jefryAl-bukhori.mp3",
+  },
+  {
+    cover: "https://i1.sndcdn.com/artworks-000589108250-6ziebm-t500x500.jpg",
+    title: "Maulid Bersama Uje",
+    artist: "Ustad Jefri Al Buchori (UJE)",
+    audio: "https://archive.org/download/CeramahUstadJefri/TubanBerdzikirMaulidBersamaUstadJefriAlBuchori.mp3",
+  },
 
   // Add more songs as needed
 ];
