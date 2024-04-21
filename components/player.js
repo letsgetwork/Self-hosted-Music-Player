@@ -53,11 +53,16 @@ audio.addEventListener('timeupdate', () => {
 
 audio.addEventListener('ended', () => {
   if (isShuffleOn) {
-    loadAndPlayRandomSong();
-  } else {
     playNextSong();
+  } else {
+    playNextInSequence();
   }
 });
+
+function playNextInSequence() {
+  currentSongIndex = (currentSongIndex + 1) % playlist.length;
+  loadCurrentSong();
+}
 
 progressBar.addEventListener('input', () => {
   const seekTime = (progressBar.value / 100) * audio.duration;
