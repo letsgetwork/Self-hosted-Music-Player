@@ -9,7 +9,7 @@ const progressBar = document.getElementById('progressBar');
 const startTime = document.getElementById('startTime');
 const endTime = document.getElementById('endTime');
 
-let isPlaying = false;
+let isPlaying = true;
 let isShuffleOn = false;
 let currentTime = 0;
 let currentSongIndex = 0;
