@@ -1,0 +1,27 @@
+<div class="fixed w-full z-10 bottom-0">
+
+  <div class="flex flex-wrap justify-between bg-black items-center">
+    <section class="mx-auto p-2">
+      <img id="coverImage" src="https://placeholder.co/80x80" class="rounded" alt="">
+    </section>
+    <section class="mx-auto md:text-start text-center">
+      <h1 id="songTitle" class="lg:text-4xl md:text-3xl sm:text-xl font-extrabold text-white p-2">Song Title</h1>
+      <h1 id="artistName" class="lg:text-xl md:text-lg sm:text-normal font-regular text-white p-2">Artist Name</h1>
+    </section>
+    <section class="flex space-x-10 mx-auto">
+      <img id="prevButton" class="m-1" src="/asset/prev.png" style="width:30px; height:30px;" alt="">
+      <img id="playPauseButton" class="m-1" src="/asset/play.png" style="width:30px; height:30px;" alt="">
+      <img id="nextButton" class="m-1" src="/asset/next.png" style="width:30px; height:30px;" alt="">
+    </section>
+  </div>
+  <div class="flex items-center justify-between w-full bg-black p-2">
+    <p id="startTime" class="text-xs text-white">0:00</p>
+    <div class="w-full mx-3 items-center">
+      <input type="range" class="w-full" min="0" max="100" value="0" id="progressBar">
+    </div>
+    <p id="endTime" class="text-xs text-white">0:00</p>
+  </div>
+</div>
+
+<script id="playlist" src="/components/playlist.js"></script>
+<script id="playerjs" src="/components/player.js"></script>
