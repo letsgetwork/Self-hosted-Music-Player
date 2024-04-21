@@ -108,7 +108,7 @@ function loadCurrentSong() {
   artistName.textContent = playlist[currentSongIndex].artist;
   audio.play();
   isPlaying = true;
-  playPauseButton.src = '/asset/play.png';
+  playPauseButton.src = '/asset/pause.png';
   audio.addEventListener('loadedmetadata', () => {
     endTime.textContent = formatTime(audio.duration);
   });
