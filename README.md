@@ -25,7 +25,7 @@ Access your music library anytime, anywhere, across all your devices. The Self-h
 
 ## Getting Started
 1. **Installation**: Download the Self-hosted Music Player files and host them on your platform. The player is designed to be lightweight and easy to set up, allowing you to get started quickly.
-2. **Adding Music**: Edit the `/components/playerjs.js` file to include your music library. Simply add new music entries to the file to expand your collection. You can organize your music by artist, album, genre, or any other criteria that suits your needs.
+2. **Adding Music**: Edit the `/components/player.js` file to include your music library. Simply add new music entries to the file to expand your collection. You can organize your music by artist, album, genre, or any other criteria that suits your needs.
 3. **Customization**: Make the Self-hosted Music Player your own by customizing the `/components/player.html` file. Adjust themes, layout, and functionality to create your ideal music player experience. Whether you're a minimalist who prefers a clean interface or a power user who wants advanced features, the player can be tailored to suit your preferences.
 4. **Enjoy Your Music**: Once set up, navigate to your Self-hosted Music Player URL and start enjoying your music collection with full control and privacy. Whether you're listening at home, on the go, or anywhere in between, the player ensures a seamless and enjoyable music listening experience.
 
