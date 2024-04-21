@@ -1,18 +1,18 @@
 <div class="fixed w-full z-10 bottom-0">
 
   <div class="flex flex-wrap justify-between bg-black items-center">
-    <container class="mx-auto p-3">
+    <section class="mx-auto p-3">
       <img id="coverImage" src="https://placeholder.co/80x80" class="rounded" alt="">
-    </container>
-    <container class="mx-auto text-center">
+    </section>
+    <section class="mx-auto text-center">
       <h1 id="songTitle" class="lg:text-4xl md:text-2xl sm:text-normal font-extrabold text-white m-2">Song Title</h1>
       <h1 id="artistName" class="lg:text-xl md:text-lg sm:text-normal font-regular text-white m-2">Artist Name</h1>
-    </container>
-    <container class="flex space-x-10 mx-auto">
+    </section>
+    <section class="flex space-x-10 mx-auto">
       <img id="prevButton" class="m-1" src="/asset/prev.png" style="width:30px; height:30px;" alt="">
       <img id="playPauseButton" class="m-1" src="/asset/play.png" style="width:30px; height:30px;" alt="">
       <img id="nextButton" class="m-1" src="/asset/next.png" style="width:30px; height:30px;" alt="">
-    </container>
+    </section>
   </div>
   <div class="flex items-center justify-between w-full bg-black p-2">
     <p id="startTime" class="text-xs text-white">0:00</p>
@@ -108,7 +108,7 @@ function loadCurrentSong() {
   artistName.textContent = playlist[currentSongIndex].artist;
   audio.play();
   isPlaying = true;
-  playPauseButton.src = '/asset/pause.png';
+  playPauseButton.src = '/asset/play.png';
   audio.addEventListener('loadedmetadata', () => {
     endTime.textContent = formatTime(audio.duration);
   });
