@@ -333,88 +333,87 @@ const playlist = [
     artist: 'KH. Zainuddin MZ',
     audio: 'https://archive.org/download/BlogGalihKhZainuddinMz/KhZainuddinMz-UmmarBinKhattab.mp3'
   },
+  
 
   // Add more songs as needed
 ];
 
 let currentSongIndex = 0; // Track the index of the current song
 
- // Function to format time in MM:SS format
- function formatTime(seconds) {
-      const minutes = Math.floor(seconds / 60);
-      const remainingSeconds = Math.floor(seconds % 60);
-      return `${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
-    }
+// Function to format time in MM:SS format
+function formatTime(seconds) {
+  const minutes = Math.floor(seconds / 60);
+  const remainingSeconds = Math.floor(seconds % 60);
+  return `${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
+}
 
-    // Function to play or pause the audio
-    function togglePlayPause() {
-      if (isPlaying) {
-        audio.pause();
-      } else {
-        audio.play();
-      }
-      isPlaying = !isPlaying;
-      playPauseButton.src = isPlaying ? '/asset/pause.png' : '/asset/play.png';
-    }
+// Function to play or pause the audio
+function togglePlayPause() {
+  if (isPlaying) {
+    audio.pause();
+  } else {
+    audio.play();
+  }
+  isPlaying = !isPlaying;
+  playPauseButton.src = isPlaying ? '/asset/pause.png' : '/asset/play.png';
+}
 
-    // Event listeners for play, pause, previous, and next buttons
-    playPauseButton.addEventListener('click', togglePlayPause);
-    prevButton.addEventListener('click', playPreviousSong);
-    nextButton.addEventListener('click', playNextSong);
+// Event listeners for play, pause, previous, and next buttons
+playPauseButton.addEventListener('click', togglePlayPause);
+prevButton.addEventListener('click', playPreviousSong);
+nextButton.addEventListener('click', playNextSong);
 
-    // Create audio element
-    const audio = new Audio();
-    audio.src = playlist[currentSongIndex].audio;
-    audio.addEventListener('loadedmetadata', () => {
-      endTime.textContent = formatTime(audio.duration);
-    });
+// Create audio element
+const audio = new Audio();
+audio.src = playlist[currentSongIndex].audio;
+audio.addEventListener('loadedmetadata', () => {
+  endTime.textContent = formatTime(audio.duration);
+});
 
-    // Event listener for updating progress bar
-    audio.addEventListener('timeupdate', () => {
-      currentTime = Math.floor(audio.currentTime);
-      progressBar.value = (currentTime / audio.duration) * 100;
-      startTime.textContent = formatTime(currentTime);
-    });
+// Event listener for updating progress bar
+audio.addEventListener('timeupdate', () => {
+  currentTime = Math.floor(audio.currentTime);
+  progressBar.value = (currentTime / audio.duration) * 100;
+  startTime.textContent = formatTime(currentTime);
+});
 
-    // Event listener for when the song ends
-    audio.addEventListener('ended', playNextSong);
+// Event listener for when the song ends
+audio.addEventListener('ended', playNextSong);
 
-    // Event listener for when the progress bar value changes
-    progressBar.addEventListener('input', () => {
-      const seekTime = (progressBar.value / 100) * audio.duration;
-      audio.currentTime = seekTime;
-      startTime.textContent = formatTime(seekTime);
-    });
+// Event listener for when the progress bar value changes
+progressBar.addEventListener('input', () => {
+  const seekTime = (progressBar.value / 100) * audio.duration;
+  audio.currentTime = seekTime;
+  startTime.textContent = formatTime(seekTime);
+});
 
-    // Function to play the previous song
-    function playPreviousSong() {
-      currentSongIndex = (currentSongIndex - 1 + playlist.length) % playlist.length;
-      loadCurrentSong();
-    }
+// Function to play the previous song
+function playPreviousSong() {
+  currentSongIndex = (currentSongIndex - 1 + playlist.length) % playlist.length;
+  loadCurrentSong();
+}
 
-    // Function to play the next song
-    function playNextSong() {
-      currentSongIndex = (currentSongIndex + 1) % playlist.length;
-      loadCurrentSong();
-    }
+// Function to play the next song
+function playNextSong() {
+  currentSongIndex = (currentSongIndex + 1) % playlist.length;
+  loadCurrentSong();
+}
 
-    // Function to load the current song
-    function loadCurrentSong() {
-      const currentSong = playlist[currentSongIndex];
-      audio.src = currentSong.audio;
-      coverImage.src = currentSong.cover;
-      songTitle.textContent = currentSong.title;
-      artistName.textContent = currentSong.artist;
-      document.title = `${currentSong.artist} - ${currentSong.title}`; // Update browser title
-      audio.play();
-      isPlaying = true;
-      playPauseButton.src = '/asset/pause.png';
-      audio.addEventListener('loadedmetadata', () => {
-        endTime.textContent = formatTime(audio.duration);
-      });
-    }
+// Function to load the current song
+function loadCurrentSong() {
+  audio.src = playlist[currentSongIndex].audio;
+  coverImage.src = playlist[currentSongIndex].cover;
+  songTitle.textContent = playlist[currentSongIndex].title;
+  artistName.textContent = playlist[currentSongIndex].artist;
+  audio.play();
+  isPlaying = true;
+  playPauseButton.src = '/asset/pause.png';
+  audio.addEventListener('loadedmetadata', () => {
+    endTime.textContent = formatTime(audio.duration);
+  });
+}
 
-    // Call the function to load and play a random song when the page first loads
-    loadAndPlayRandomSong();
-    
+// Initialize the player UI
+loadCurrentSong();
+
 </script>
