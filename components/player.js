@@ -93,12 +93,13 @@ function getRandomIndex() {
 }
 
 function loadCurrentSong() {
+  currentSongIndex = getRandomIndex(); // Select a random song index
   const currentSong = playlist[currentSongIndex];
   audio.src = currentSong.audio;
   coverImage.src = currentSong.cover;
   songTitle.textContent = currentSong.title;
   artistName.textContent = currentSong.artist;
-  document.title = `${currentSong.artist} - ${currentSong.title}`;
+  document.title = '🎶 ' + `${currentSong.artist} - ${currentSong.title}`;
   audio.play(); // Autoplay when loading new song
   isPlaying = true;
   playPauseButton.src = '/asset/pause.png';
