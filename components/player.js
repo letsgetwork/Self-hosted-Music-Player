@@ -9,7 +9,7 @@ const progressBar = document.getElementById('progressBar');
 const startTime = document.getElementById('startTime');
 const endTime = document.getElementById('endTime');
 
-let isPlaying = true;
+let isPlaying = false;
 let isShuffleOn = false;
 let currentTime = 0;
 let currentSongIndex = 0;
@@ -94,7 +94,7 @@ function loadCurrentSong() {
   songTitle.textContent = currentSong.title;
   artistName.textContent = currentSong.artist;
   document.title = `${currentSong.artist} - ${currentSong.title}`;
-  audio.play();
+  audio.play(); // Autoplay when loading new song
   isPlaying = true;
   playPauseButton.src = '/asset/pause.png';
 }
@@ -118,4 +118,5 @@ function loadAndPlayRandomSong() {
   loadCurrentSong();
 }
 
+// Call loadAndPlayRandomSong() after audio initialization to autoplay on page refresh
 loadAndPlayRandomSong();
