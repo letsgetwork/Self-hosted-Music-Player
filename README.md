@@ -25,7 +25,7 @@ Access your music library anytime, anywhere, across all your devices. The Self-h
 
 ## Getting Started
 1. **Installation**: Download the Self-hosted Music Player files and host them on your platform. The player is designed to be lightweight and easy to set up, allowing you to get started quickly.
-2. **Adding Music**: Edit the `/components/player.html` file to include your music library. Simply add new music entries to the file to expand your collection. You can organize your music by artist, album, genre, or any other criteria that suits your needs.
+2. **Adding Music**: Edit the `/components/playerjs.js` file to include your music library. Simply add new music entries to the file to expand your collection. You can organize your music by artist, album, genre, or any other criteria that suits your needs.
 3. **Customization**: Make the Self-hosted Music Player your own by customizing the `/components/player.html` file. Adjust themes, layout, and functionality to create your ideal music player experience. Whether you're a minimalist who prefers a clean interface or a power user who wants advanced features, the player can be tailored to suit your preferences.
 4. **Enjoy Your Music**: Once set up, navigate to your Self-hosted Music Player URL and start enjoying your music collection with full control and privacy. Whether you're listening at home, on the go, or anywhere in between, the player ensures a seamless and enjoyable music listening experience.
 
@@ -40,11 +40,11 @@ The Self-hosted Music Player is built using a combination of the following techn
 Contributions to the Self-hosted Music Player project are welcome! Whether you're a developer looking to contribute code, a designer with ideas for improving the user interface, or a music enthusiast with suggestions for new features, your input is valued and appreciated. Feel free to fork the repository, make improvements, and submit pull requests to help make the player even better for everyone.
 
 ## Support and Feedback
-For any issues, feedback, or feature requests, please [contact the developer](mailto:hi@asharirhmn.com). Your input is crucial in improving the Self-hosted Music Player and ensuring that it meets the needs of its users. Whether you encounter a bug, have a suggestion for improvement, or simply want to share your experience with the player, your feedback is always welcome and will be taken into consideration.
+For any issues, feedback, or feature requests, please [contact the ARI](mailto:hi@asharirhmn.com). Your input is crucial in improving the Self-hosted Music Player and ensuring that it meets the needs of its users. Whether you encounter a bug, have a suggestion for improvement, or simply want to share your experience with the player, your feedback is always welcome and will be taken into consideration.
 
 ## License
 The Self-hosted Music Player is open-source software released under the [MIT License](https://opensource.org/licenses/MIT). This means that you are free to use, modify, and distribute the player according to the terms of the license. By using the player, you agree to abide by the terms of the license and acknowledge that the developer is not liable for any damages or consequences resulting from the use of the player.
 
 ## About the Developer
-The Self-hosted Music Player is developed by [@asharirhmn](https://twitter.com/asharirhmn), a passionate developer dedicated to creating user-friendly and customizable solutions for music enthusiasts. With a focus on privacy, customization, and user experience, the developer strives to empower users to take control of their digital lives and enjoy their music on their own terms.
+The Self-hosted Music Player is developed by [@asharirhmn](https://asharirhmn.com/tw), a passionate developer dedicated to creating user-friendly and customizable solutions for music enthusiasts. With a focus on privacy, customization, and user experience, the developer strives to empower users to take control of their digital lives and enjoy their music on their own terms.
 
