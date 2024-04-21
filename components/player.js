@@ -118,5 +118,6 @@ function loadAndPlayRandomSong() {
   loadCurrentSong();
 }
 
-// Call loadAndPlayRandomSong() after audio initialization to autoplay on page refresh
-loadAndPlayRandomSong();
+document.addEventListener('DOMContentLoaded', function() {
+  loadAndPlayRandomSong();
+});
