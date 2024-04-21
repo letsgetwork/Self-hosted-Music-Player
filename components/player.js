@@ -93,7 +93,6 @@ function getRandomIndex() {
 }
 
 function loadCurrentSong() {
-  currentSongIndex = getRandomIndex(); // Select a random song index
   const currentSong = playlist[currentSongIndex];
   audio.src = currentSong.audio;
   coverImage.src = currentSong.cover;
