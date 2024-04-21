@@ -236,14 +236,14 @@ const playlist = [
   },
   {
     cover: "https://i.ibb.co/4t0qqW1/image.png",
-    title: "KhZainuddinMz-Nabi Sulaiman Dan Ratu Bilqis",
+    title: "Nabi Sulaiman Dan Ratu Bilqis",
     artist: "KH. Zainuddin MZ",
     audio:
       "https://archive.org/download/BlogGalihKhZainuddinMz/KhZainuddinMz-NabiSulaimanDanRatuBilkis.mp3",
   },
   {
     cover: "https://i.ibb.co/4t0qqW1/image.png",
-    title: "NabiYusuf Dan Siti Zulaikha",
+    title: "Nabi Yusuf Dan Siti Zulaikha",
     artist: "KH. Zainuddin MZ",
     audio:
       "https://archive.org/download/BlogGalihKhZainuddinMz/KhZainuddinMz-NabiYusufDanSitiZulaikha.mp3",
