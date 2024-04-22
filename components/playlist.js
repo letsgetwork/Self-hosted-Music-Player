@@ -15,7 +15,7 @@ const playlist = [
     cover: "https://i.ytimg.com/vi/uTlKbF5AUh4/0.jpg",
     title: "Nasibmu Tergantung Pada Shalatmu",
     artist: "KH. Zainuddin MZ",
-    audio: "http://sorryyee.serv00.net/ceramah/ceramah2.mp3",
+    audio: "https://archive.org/download/ceramah1_202404/ceramah1.mp3",
   },
   {
     cover: "https://i.ibb.co/4t0qqW1/image.png",
